@@ -6,6 +6,12 @@ The goal of the game is to roll the dice until all dice show the same number. Pl
 
 ---
 
+## 🌐 Live Demo
+
+Play the game here: [https://tenzies-game-sigma-six.vercel.app/](https://tenzies-game-sigma-six.vercel.app/)
+
+---
+
 ## 🚀 Tech Stack
 
 - React
