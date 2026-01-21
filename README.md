@@ -1,16 +1,91 @@
-# React + Vite
+# 🎲 Tenzies Game
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A fun and interactive Tenzies dice game built using **React** and **Vite**.
 
-Currently, two official plugins are available:
+The goal of the game is to roll the dice until all dice show the same number. Players can hold selected dice between rolls to reach the winning condition.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## React Compiler
+## 🚀 Tech Stack
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- React
+- Vite
+- JavaScript
+- CSS
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## ✨ Features
+
+- Roll dice functionality
+- Hold individual dice
+- Win detection logic
+- Confetti animation on winning
+- Responsive user interface
+- Fast development setup using Vite
+
+---
+
+## 🧠 Concepts Used
+
+- React Functional Components
+- useState Hook
+- useEffect Hook
+- Props
+- Conditional Rendering
+- Event Handling
+- Basic game logic
+
+---
+
+## � Learning Outcome
+
+- React hooks and state management
+- Component-based architecture
+- Handling user interactions
+- Building interactive frontend applications
+- Structuring React projects
+
+---
+
+## �📁 Project Structure
+
+```
+src/
+├── components/
+│   └── die.jsx
+├── assets/
+├── App.jsx
+├── App.css
+├── index.jsx
+└── index.css
+```
+
+---
+
+## ▶️ How to Run Locally
+
+1. Clone the repository
+
+```bash
+git clone https://github.com/your-username/tenzies-game.git
+cd tenzies-game
+```
+
+2. Install dependencies
+
+```bash
+npm install
+```
+
+3. Start the development server
+
+```bash
+npm run dev
+```
+
+4. Open your browser and navigate to:
+
+```
+http://localhost:5173
+```
